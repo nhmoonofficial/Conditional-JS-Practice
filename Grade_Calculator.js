@@ -25,3 +25,7 @@ if (score >= 90){
 } else{
   console.log('You are Fail');
 }
+
+
+
+
