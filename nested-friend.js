@@ -11,3 +11,24 @@ Note:
 use nested if-else-if-else
 */
 
+const score = 33;
+
+if ( score < 80){
+    console.log('go to home and sleep and act sad');
+}
+
+
+else {  
+  
+  if ( score >= 80 ){
+        console.log('go for a lunch');
+      } else if  ( score >= 60 ){
+        console.log('good luck next time');
+       }
+       else if ( score >= 40 ) {
+        console.log('message unseen');
+       }
+       else {
+        console.log('block your friend');
+       }
+}
